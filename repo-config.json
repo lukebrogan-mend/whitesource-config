@@ -2,6 +2,9 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
+    "enableLicenseViolations": "true",
+    "projectToken": "",
+    "enableIaC": "true",
     "baseBranches": []
   },
   "checkRunSettings": {
@@ -12,8 +15,7 @@
     "minSeverityLevel": "LOW"
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
+    "enableRenovate": true,
+    "extends": ["github>whitesource/merge-confidence:beta"]
     }
-  }
 }
