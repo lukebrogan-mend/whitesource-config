@@ -5,6 +5,7 @@
     "enableLicenseViolations": "true",
     "projectToken": "",
     "enableIaC": "true",
+    "enableSAST": "true",
     "baseBranches": []
   },
   "pullRequestStatusSettings": {
