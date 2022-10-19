@@ -12,6 +12,11 @@
     "vulnerablePullRequestStatus": "failed",
     "displayMode": "diff"
   },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": "true"
+  },
   "issueSettings": {
     "minSeverityLevel": "LOW"
   },
