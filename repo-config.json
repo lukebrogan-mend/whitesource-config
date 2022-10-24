@@ -19,7 +19,8 @@
     "useMendCheckNames": "true"
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW"
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
    "extends": ["github>whitesource/merge-confidence:beta"],
