@@ -8,7 +8,7 @@
   "scanSettingsSAST": {
     "enableScan": "true",
     "enableRemediation": "true",
-    "ScanPullRequests" "true"
+    "ScanPullRequests": "true"
   },
   "pullRequestStatusSettings": {
     "vulnerablePullRequestStatus": "failed",
