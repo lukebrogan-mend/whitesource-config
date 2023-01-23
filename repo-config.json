@@ -3,11 +3,12 @@
     "configMode": "AUTO",
     "enableLicenseViolations": "true",
     "enableIaC": "true",
-    "enableSASTRemediation": "true",
     "baseBranches": []
   },
   "scanSettingsSAST": {
-    "enableScan": "true"
+    "enableScan": "true",
+    "enableRemediation": "true",
+    "ScanPullRequests" "true"
   },
   "pullRequestStatusSettings": {
     "vulnerablePullRequestStatus": "failed",
