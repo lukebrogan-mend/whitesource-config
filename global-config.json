@@ -1,3 +1,4 @@
 {
-  "repoConfigMode": "nowhitesourceFile"
+  "repoConfigMode": "nowhitesourceFile",
+  "CVSSv3": true
 }
