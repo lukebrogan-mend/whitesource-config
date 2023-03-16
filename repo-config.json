@@ -2,6 +2,8 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
+    "enableLicenseViolations": "true",
+    "enableIaC": "true",
     "baseBranches": []
   },
   "scanSettingsSAST": {
@@ -25,6 +27,7 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
+    "extends": ["github>whitesource/merge-confidence:beta"],
     "workflowRules": {
       "enabled": true
     }
