@@ -3,6 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "enableLicenseViolations": "true",
+    "displayLicenseViolations": "true",
     "enableIaC": "true",
     "baseBranches": []
   },
