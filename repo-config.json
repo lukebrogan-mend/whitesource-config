@@ -5,6 +5,7 @@
     "enableLicenseViolations": "true",
     "displayLicenseViolations": "true",
     "enableIaC": "true",
+    "enableReachability": true,
     "baseBranches": []
   },
   "scanSettingsSAST": {
