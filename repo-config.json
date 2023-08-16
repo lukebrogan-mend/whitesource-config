@@ -28,6 +28,13 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": true,
+      "addDockerfilePath": true,
+      "addRepositoryCoordinates": true
+   }
+  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": false
