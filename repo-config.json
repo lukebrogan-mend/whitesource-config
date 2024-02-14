@@ -35,7 +35,8 @@
     "imageTracing": {
       "enableImageTracingPR": true,
       "addDockerfilePath": true,
-      "addRepositoryCoordinates": true
+      "addRepositoryCoordinates": true,
+      "addMendIdentifier": true
    }
   },
   "remediateSettings": {
